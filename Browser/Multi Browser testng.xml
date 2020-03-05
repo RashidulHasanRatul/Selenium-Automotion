@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test  name="Test of firefox browser">
+  
+  <parameter name="BrowserName" value="firefox"></parameter>
+    <classes>
+      <class name="Browser.MultiBrowserTestNG"/>
+    </classes>
+  </test> 
+  
+  <test  name="Test of chorme browser">
+  
+  <parameter name="BrowserName" value="chorme"></parameter>
+    <classes>
+      <class name="Browser.MultiBrowserTestNG"/>
+    </classes>
+  </test> 
+  
+  
+</suite> 
